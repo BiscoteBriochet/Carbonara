@@ -9,9 +9,9 @@ const Leg = React.memo(function({ from, to, line, stops, segments, time }: LegPr
 
     return (
         <div className="route-step">
-            Take the <span className={`line-badge ${isHSR && "hsr-badge"}`} style={{ backgroundColor: line.colour }}>{line.id} ({line.name})</span> from <strong className="transfer-station">{from}</strong> to <strong className="transfer-station">{to}</strong>
+            Prendre le <span className={`line-badge ${isHSR && "hsr-badge"}`} style={{ backgroundColor: line.colour }}>{line.id} ({line.name})</span> de <strong className="transfer-station">{from}</strong> à <strong className="transfer-station">{to}</strong>
 
-            {!isHSR && stops.length > 2 && <div className="station-count">Pass through: {stops.slice(1, -1).join(", ")}</div>}
+            {!isHSR && stops.length > 2 && <div className="station-count">Via : {stops.slice(1, -1).join(", ")}</div>}
             {isHSR && <div className="station-count"><strong>Express direct connection</strong></div>}
 
             {!isHSR && <div className="station-count">
