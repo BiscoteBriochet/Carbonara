@@ -29,13 +29,13 @@ export default function Home() {
 
         try {
             if (startStation === endStation) {
-                throw new Error("Start and end stations must be different");
+                throw new Error("Le départ et l'arrivée doivent être différents.");
             }
 
             const result = findRoute(startStation, endStation, metric);
 
             if (result !== null && result !== undefined && result.length === 0) {
-                throw new Error("No route found between selected stations");
+                throw new Error("Aucun itinéraire trouvé entre ces deux stations.");
             }
 
             setRoute(result);
@@ -69,9 +69,9 @@ export default function Home() {
                         <div className="line-border" role="separator" />
 
                         <div className="text-center text-base/(--line-height-relaxed) transition-all">
-                            <p>Select your starting point and destination to find the best route.</p>
+                            <p>Sélectionez le départ et l'arrivée pour trouver le meilleur itinéraire.</p>
                             <p className="text-(length:--font-size-sm)/(--line-height-normal) mt-2">
-                                <b>Note: Total journey time does not take into account transfer times.</b>
+                                <b>Note : Le temps total de trajet ne prend pas en compte le temps des correspondances.</b>
                             </p>
                         </div>
 
