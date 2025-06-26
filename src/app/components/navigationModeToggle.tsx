@@ -12,13 +12,13 @@ function NavigationModeToggle({
 }) {
     return (
         <Group align="center">
-            <Text size="sm">Min. time</Text>
+            <Text size="sm">Min. temps</Text>
             <Switch
                 checked={checked}
                 onChange={(e) => onChange(e.currentTarget.checked)}
                 styles={{
                     track: {
-                        backgroundColor: "#588157",
+                        backgroundColor: "#64b5f6",
                         border: "none"
                     },
                     thumb: {
@@ -27,7 +27,7 @@ function NavigationModeToggle({
                     },
                 }}
             />
-            <Text size="sm">Min. transfers</Text>
+            <Text size="sm">Min. corresp.</Text>
         </Group>
     );
 }
