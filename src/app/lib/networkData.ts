@@ -3,68 +3,68 @@ import { NetworkData } from "@/app/lib/interfaces";
 const networkData = {
     lines: [
         {
-            id: "M1",
-            name: "",
+            id: "1",
+            name: "Métro 1",
             colour: "#ffcd02",
             type: "LSR"
         },{
-            id: "M2",
-            name: "",
+            id: "2",
+            name: "Métro 2",
             colour: "#006db8",
             type: "LSR"
         },{
-            id: "M3",
-            name: "",
+            id: "3",
+            name: "Métro 3",
             colour: "#9b993b",
             type: "LSR"
         },{
-            id: "M4",
-            name: "",
+            id: "4",
+            name: "Métro 4",
             colour: "#bb4a9b",
             type: "LSR"
         },{
-            id: "M5",
-            name: "",
+            id: "5",
+            name: "Métro 5",
             colour: "#f78f4b",
             type: "LSR"
         },{
-            id: "M6",
-            name: "",
+            id: "6",
+            name: "Métro 6",
             colour: "#77c696",
             type: "LSR"
         },{
-            id: "M7",
-            name: "",
+            id: "7",
+            name: "Métro 7",
             colour: "#f59fb3",
             type: "LSR"
         },
         {
-            id: "RER A",
-            name: "",
+            id: "A",
+            name: "RER A",
             colour: "#ed1c2a",
             type: "LSR"
         },
         {
-            id: "RER B",
-            name: "",
+            id: "B",
+            name: "RER B",
             colour: "#4c90cd",
             type: "LSR"
         },
         {
-            id: "RER C",
-            name: "",
+            id: "C",
+            name: "RER C",
             colour: "#ffcd02",
             type: "LSR"
         },
         {
-            id: "RER D",
-            name: "",
+            id: "D",
+            name: "RER D",
             colour: "#008c5a",
             type: "LSR"
         },
         {
-            id: "RER E",
-            name: "",
+            id: "E",
+            name: "RER E",
             colour: "#bb4a9b",
             type: "LSR"
         }
