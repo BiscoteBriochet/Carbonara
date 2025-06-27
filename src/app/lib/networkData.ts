@@ -89,7 +89,7 @@ const networkData = {
         },{
             name: "Esplanade"
         },{
-            name: "Ferme à or"
+            name: "Ferme à Or"
         }, {
             name: "Gambetta"
         },{
