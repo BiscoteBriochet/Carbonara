@@ -156,15 +156,63 @@ const networkData = {
     ],
     connections: [
         {
-            from: "Châtelet",
-            to: "Les Halles",
-            lineID: "1",
-            time: 185
+            from: "Gare d'Italie – Colisée",
+            to: "Nation",
+            lineID: "A",
+            time: 80
         },
         {
-            from: "Châtelet",
-            to: "Les Halles",
+            from: "Nation",
+            to: "Gare de l'Ouest – Tour Eiffel",
             lineID: "A",
+            time: 60
+        },
+        {
+            from: "Gare de l'Ouest – Tour Eiffel",
+            to: "Salle des Coffres",
+            lineID: "A",
+            time: 55
+        },
+        {
+            from: "Salle des Coffres",
+            to: "Châtelet – Les Halles",
+            lineID: "A",
+            time: 40
+        },
+        {
+            from: "Le Hury",
+            to: "Ferme à Or",
+            lineID: "B",
+            time: 65
+        },
+        {
+            from: "Ferme à Or",
+            to: "Gare Centrale de Routerailand",
+            lineID: "B",
+            time: 120
+        },
+        {
+            from: "Gare Centrale de Routerailand",
+            to: "Routerailland – Porcidrome",
+            lineID: "B",
+            time: 40
+        },
+        {
+            from: "Routerailland – Porcidrome",
+            to: "Géode – Stade Teddy Riner",
+            lineID: "B",
+            time: 50
+        },
+        {
+            from: "Géode – Stade Teddy Riner",
+            to: "Gare du Nord",
+            lineID: "B",
+            time: 30
+        },
+        {
+            from: "Gare du Nord",
+            to: "Châtelet – Les Halles",
+            lineID: "B",
             time: 60
         }
     ]
