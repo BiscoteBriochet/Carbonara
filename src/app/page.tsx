@@ -62,9 +62,8 @@ export default function Home() {
             <main className="w-full max-w-7xl mx-auto mt-0 mb-0 px-4 rounded-lg shadow-lg fade-in" role="main">
                 <div className="grid gap-4 grid-cols-2">
                     <div className="col-span-full">
-                        <h1 className="text-center text-[2rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wider" style={{ color: "var(--color-primary)" }}>CARBONARA</h1>
-                        <h2 className="text-center text-[1.5rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wide mb-5" style={{ color: "var(--color-primary-light)" }}>A P.E.S.T.O. Train Router</h2>
-                        <p className="text-center text-base/(--line-height-relaxed) mb-5">Comprehensive And Rapid Browser for Organized Navigation And Route Assistance</p>
+                        <h1 className="text-center text-[2rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wider" style={{ color: "var(--color-primary)" }}>Creep'Mobilités</h1>
+                        <h2 className="text-center text-[1.5rem]/(--line-height-tight) font-bold font-(family-name:--font-primary) tracking-wide mb-5" style={{ color: "var(--color-primary-light)" }}>Une application RATP</h2>
 
                         <div className="line-border" role="separator" />
 
