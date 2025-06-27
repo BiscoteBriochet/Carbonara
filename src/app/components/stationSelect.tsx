@@ -18,13 +18,13 @@ export function StationSelect({ selectStart, selectEnd, startStation, endStation
         <div className="mb-5">
             <div className="flex flex-wrap gap-4 sm:items-end">
                 <div className="flex-1">
-                    <p>Start Station:</p>
+                    <p>Départ :</p>
                     <SearchableSelect
                         value={startStation}
                         setValue={selectStart} />
                 </div>
                 <div className="flex-1">
-                    <p>End Station:</p>
+                    <p>Arrivée :</p>
                     <SearchableSelect
                         value={endStation}
                         setValue={selectEnd} />
