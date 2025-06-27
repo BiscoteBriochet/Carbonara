@@ -103,7 +103,7 @@ const networkData = {
         }, {
             name: "Gare du Nord"
         },{
-            name: "Géode"
+            name: "Géode – Stade Teddy Riner"
         },{
             name: "Île Champignon"
         },{
