@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import networkData from "@/app/lib/networkData";
 import { LegProp } from "@/app/lib/interfaces";
-import NetworkMap from "@/app/components/networkMap";
 import { ParentSize } from "@visx/responsive";
 import RoutingResult from "@/app/components/routingResult";
 import { findRoute } from "@/app/util/routing";
