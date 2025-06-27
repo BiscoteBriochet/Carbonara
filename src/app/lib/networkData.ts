@@ -71,10 +71,87 @@ const networkData = {
     ],
     stations: [
         {
-            name: "Châtelet"
-        },
-        {
-            name: "Les Halles"
+            name: "Arsenal"
+        },{
+            name: "Azuria Nord"
+        },{
+            name: "Azuria Sud"
+        },{
+            name: "Bastille"
+        },{
+            name: "Bouleau-sous-Bois"
+        }, {
+            name: "Cairolis Est"
+        },{
+            name: "Châtelet – Les Halles"
+        },{
+            name: "Diorite"
+        },{
+            name: "Esplanade"
+        },{
+            name: "Ferme à or"
+        }, {
+            name: "Gambetta"
+        },{
+            name: "Gare Centrale de Routerailand"
+        },{
+            name: "Gare d'Italie"
+        },{
+            name: "Gare de l'Ouest – Tour Eiffel"
+        },{
+            name: "Gare de Mont-Qu"
+        }, {
+            name: "Gare du Nord"
+        },{
+            name: "Géode"
+        },{
+            name: "Île Champignon"
+        },{
+            name: "Jaurès"
+        },{
+            name: "Lac du Jardin"
+        }, {
+            name: "Le Hury"
+        },{
+            name: "Mairie de Saint-Denis"
+        },{
+            name: "Montparnasse"
+        },{
+            name: "Nation"
+        },{
+            name: "Paris – Désert"
+        }, {
+            name: "Piscine Léon Marchand"
+        },{
+            name: "Place de l'Étoile – Arc de Triomphe"
+        },{
+            name: "Plutus-les-Lacs"
+        },{
+            name: "Porcidrome"
+        },{
+            name: "Promenade Rouge"
+        }, {
+            name: "Quartier d'affaires"
+        },{
+            name: "Routerailand"
+        },{
+            name: "Routerailland – Porcidrome"
+        },{
+            name: "Saint-Denis – Nord"
+        },{
+            name: "Saint-Jacques"
+        }, {
+            name: "Saint-Michel – Notre-Dame"
+        },{
+            name: "Salle des Coffres"
+        },{
+            name: "Tour à Mobs"
+        },{
+            name: "Toutensablé"
+        },{
+            name: "Victor Hugo"
+        },,{
+            name: "Vieux Pont"
         }
     ],
     connections: [
