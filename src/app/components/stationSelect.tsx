@@ -34,7 +34,7 @@ export function StationSelect({ selectStart, selectEnd, startStation, endStation
                     aria-label="Find route between selected stations"
                     onClick={onRouteFind}
                 >
-                    Find Route
+                    C'est parti
                 </button>
                 <div className="w-full h-[36px] flex justify-center sm:w-auto sm:justify-start">
                     <NavigationModeToggle checked={metric === "transfers"} onChange={checked => setMetric(checked ? "transfers" : "time")}></NavigationModeToggle>
