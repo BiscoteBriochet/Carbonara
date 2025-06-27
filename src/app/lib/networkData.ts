@@ -95,7 +95,7 @@ const networkData = {
         },{
             name: "Gare Centrale de Routerailand"
         },{
-            name: "Gare d'Italie"
+            name: "Gare d'Italie – Colisée"
         },{
             name: "Gare de l'Ouest – Tour Eiffel"
         },{
