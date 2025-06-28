@@ -135,7 +135,7 @@ const networkData = {
         },{
             name: "Routerailand"
         },{
-            name: "Routerailland – Porcidrome"
+            name: "Routerailand – Porcidrome"
         },{
             name: "Saint-Denis Nord"
         },{
@@ -193,12 +193,12 @@ const networkData = {
         },
         {
             from: "Gare Centrale de Routerailand",
-            to: "Routerailland – Porcidrome",
+            to: "Routerailand – Porcidrome",
             lineID: "B",
             time: 40
         },
         {
-            from: "Routerailland – Porcidrome",
+            from: "Routerailand – Porcidrome",
             to: "Géode – Stade Teddy Riner",
             lineID: "B",
             time: 50
