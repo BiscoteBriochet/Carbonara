@@ -3,6 +3,36 @@ import { NetworkData } from "@/app/lib/interfaces";
 const networkData = {
     lines: [
         {
+            id: "A",
+            name: "RER A",
+            colour: "#ed1c2a",
+            type: "LSR"
+        },
+        {
+            id: "B",
+            name: "RER B",
+            colour: "#4c90cd",
+            type: "LSR"
+        },
+        {
+            id: "C",
+            name: "RER C",
+            colour: "#ffcd02",
+            type: "LSR"
+        },
+        {
+            id: "D",
+            name: "RER D",
+            colour: "#008c5a",
+            type: "LSR"
+        },
+        {
+            id: "E",
+            name: "RER E",
+            colour: "#bb4a9b",
+            type: "LSR"
+        },
+        {
             id: "1",
             name: "Métro 1",
             colour: "#ffcd02",
@@ -36,36 +66,6 @@ const networkData = {
             id: "7",
             name: "Métro 7",
             colour: "#f59fb3",
-            type: "LSR"
-        },
-        {
-            id: "A",
-            name: "RER A",
-            colour: "#ed1c2a",
-            type: "LSR"
-        },
-        {
-            id: "B",
-            name: "RER B",
-            colour: "#4c90cd",
-            type: "LSR"
-        },
-        {
-            id: "C",
-            name: "RER C",
-            colour: "#ffcd02",
-            type: "LSR"
-        },
-        {
-            id: "D",
-            name: "RER D",
-            colour: "#008c5a",
-            type: "LSR"
-        },
-        {
-            id: "E",
-            name: "RER E",
-            colour: "#bb4a9b",
             type: "LSR"
         }
     ],
@@ -137,7 +137,7 @@ const networkData = {
         },{
             name: "Routerailland – Porcidrome"
         },{
-            name: "Saint-Denis – Nord"
+            name: "Saint-Denis Nord"
         },{
             name: "Saint-Jacques"
         }, {
@@ -214,6 +214,90 @@ const networkData = {
             to: "Châtelet – Les Halles",
             lineID: "B",
             time: 60
+        },
+        {
+            from: "Saint-Jacques",
+            to: "Châtelet – Les Halles",
+            lineID: "1",
+            time: 20
+        },
+        {
+            from: "Châtelet – Les Halles",
+            to: "Place de l'Étoile – Arc de Triomphe",
+            lineID: "1",
+            time: 20
+        },
+        {
+            from: "Place de l'Étoile – Arc de Triomphe",
+            to: "Promenade Rouge",
+            lineID: "1",
+            time: 10
+        },
+        {
+            from: "Promenade Rouge",
+            to: "Mairie de Saint-Denis",
+            lineID: "1",
+            time: 25
+        },
+        {
+            from: "Mairie de Saint-Denis",
+            to: "Saint-Denis Nord",
+            lineID: "1",
+            time: 20
+        },
+        {
+            from: "Saint-Denis Nord",
+            to: "Plutus-les-Lacs",
+            lineID: "1",
+            time: 20
+        },
+        {
+            from: "Plutus-les-Lacs",
+            to: "Porcidrome",
+            lineID: "1",
+            time: 35
+        },
+        {
+            from: "Châtelet – Les Halles",
+            to: "Salle des Coffres",
+            lineID: "2",
+            time: 40
+        },
+        {
+            from: "Salle des Coffres",
+            to: "Gare de l'Ouest – Tour Eiffel",
+            lineID: "2",
+            time: 45
+        },
+        {
+            from: "Gare de l'Ouest – Tour Eiffel",
+            to: "Pont Talon",
+            lineID: "2",
+            time: 35
+        },
+        {
+            from: "Pont Talon",
+            to: "Bouleau-sous-Bois",
+            lineID: "2",
+            time: 20
+        },
+        {
+            from: "Bouleau-sous-Bois",
+            to: "Diorite",
+            lineID: "2",
+            time: 20
+        },
+        {
+            from: "Diorite",
+            to: "Tour à Mobs",
+            lineID: "2",
+            time: 20
+        },
+        {
+            from: "Tour à Mobs",
+            to: "Mairie de Saint-Denis",
+            lineID: "2",
+            time: 25
         }
     ]
 } as NetworkData;
