@@ -298,6 +298,90 @@ const networkData = {
             to: "Mairie de Saint-Denis",
             lineID: "2",
             time: 25
+        },
+        {
+            from: "Arsenal",
+            to: "Châtelet – Les Halles",
+            lineID: "3",
+            time: 30
+        },
+        {
+            from: "Châtelet – Les Halles",
+            to: "Paris – Désert",
+            lineID: "3",
+            time: 30
+        },
+        {
+            from: "Paris – Désert",
+            to: "Toutensablé",
+            lineID: "3",
+            time: 15
+        },
+        {
+            from: "Toutensablé",
+            to: "Gambetta",
+            lineID: "3",
+            time: 20
+        },
+        {
+            from: "Gambetta",
+            to: "Lac du Jardin",
+            lineID: "3",
+            time: 15
+        },
+        {
+            from: "Lac du Jardin",
+            to: "Azuria Sud",
+            lineID: "3",
+            time: 15
+        },
+        {
+            from: "Azuria Sud",
+            to: "Azuria Nord",
+            lineID: "3",
+            time: 15
+        },
+        {
+            from: "Gare de l'Ouest – Tour Eiffel",
+            to: "Victor Hugo",
+            lineID: "4",
+            time: 15
+        },
+        {
+            from: "Victor Hugo",
+            to: "Salle des Coffres",
+            lineID: "4",
+            time: 25
+        },
+        {
+            from: "Salle des Coffres",
+            to: "Bastille",
+            lineID: "4",
+            time: 25
+        },
+        {
+            from: "Bastille",
+            to: "Châtelet – Les Halles",
+            lineID: "4",
+            time: 20
+        },
+        {
+            from: "Châtelet – Les Halles",
+            to: "Esplanade",
+            lineID: "4",
+            time: 40
+        },
+        {
+            from: "Esplanade",
+            to: "Gare de Mont-Qu",
+            lineID: "4",
+            time: 30
+        },
+        {
+            from: "Gare de Mont-Qu",
+            to: "Piscine Léon Marchand",
+            lineID: "4",
+            time: 10
         }
     ]
 } as NetworkData;
