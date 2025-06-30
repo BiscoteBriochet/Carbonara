@@ -382,6 +382,84 @@ const networkData = {
             to: "Piscine Léon Marchand",
             lineID: "4",
             time: 10
+        },
+        {
+            from: "Porcidrome",
+            to: "Routerailand",
+            lineID: "5",
+            time: 25
+        },
+        {
+            from: "Routerailand",
+            to: "Azuria Nord",
+            lineID: "5",
+            time: 45
+        },
+        {
+            from: "Azuria Nord",
+            to: "Géode – Stade Teddy Riner",
+            lineID: "5",
+            time: 25
+        },
+        {
+            from: "Géode – Stade Teddy Riner",
+            to: "Gare du Nord",
+            lineID: "5",
+            time: 30
+        },
+        {
+            from: "Gare du Nord",
+            to: "Montparnasse",
+            lineID: "5",
+            time: 15
+        },
+        {
+            from: "Montparnasse",
+            to: "Jaurès",
+            lineID: "5",
+            time: 20
+        },
+        {
+            from: "Jaurès",
+            to: "Châtelet – Les Halles",
+            lineID: "5",
+            time: 15
+        },
+        {
+            from: "Châtelet – Les Halles",
+            to: "Bastille",
+            lineID: "5",
+            time: 30
+        },
+        {
+            from: "Bastille",
+            to: "Arsenal",
+            lineID: "5",
+            time: 20
+        },
+        {
+            from: "Cairolis Est",
+            to: "Île Champignon",
+            lineID: "7",
+            time: 25
+        },
+        {
+            from: "Île Champignon",
+            to: "Tour à Mobs",
+            lineID: "7",
+            time: 15
+        },
+        {
+            from: "Tour à Mobs",
+            to: "Saint-Michel – Notre-Dame",
+            lineID: "7",
+            time: 45
+        },
+        {
+            from: "Saint-Michel – Notre-Dame",
+            to: "Châtelet – Les Halles",
+            lineID: "7",
+            time: 30
         }
     ]
 } as NetworkData;
