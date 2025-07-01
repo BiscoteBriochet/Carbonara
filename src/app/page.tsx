@@ -67,7 +67,7 @@ export default function Home() {
                         <div className="line-border" role="separator" />
 
                         <div className="text-center text-base/(--line-height-relaxed) transition-all">
-                            <p>Sélectionez le départ et l'arrivée pour trouver le meilleur itinéraire.</p>
+                            <p>Sélectionnez le départ et l'arrivée pour trouver le meilleur itinéraire.</p>
                             <p className="text-(length:--font-size-sm)/(--line-height-normal) mt-2">
                                 <b>Note : Le temps total de trajet ne prend pas en compte le temps des correspondances.</b>
                             </p>
