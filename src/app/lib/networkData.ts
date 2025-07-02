@@ -3,6 +3,12 @@ import { NetworkData } from "@/app/lib/interfaces";
 const networkData = {
     lines: [
         {
+            id: "Marche",
+            name: "Correspondance Piétonne",
+            colour: "#aaaaaa",
+            type: "LSR"
+        },
+        {
             id: "A",
             name: "RER A",
             colour: "#ed1c2a",
@@ -459,6 +465,18 @@ const networkData = {
             from: "Saint-Michel – Notre-Dame",
             to: "Châtelet – Les Halles",
             lineID: "7",
+            time: 30
+        },
+        {
+            from: "Routerailand",
+            to: "Routerailand – Porcidrome",
+            lineID: "Marche",
+            time: 30
+        },
+        {
+            from: "Routerailand – Porcidrome",
+            to: "Porcidrome",
+            lineID: "Marche",
             time: 30
         }
     ]
